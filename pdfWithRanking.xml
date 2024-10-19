@@ -1,0 +1,25 @@
+<test>
+    <webpage name="siteA">
+        <link name="siteB"/>
+        <link name="siteC"/>
+        <rank value="1.270"/>
+        <content value="Benjamin is the best man ever"/>
+    </webpage>
+    <webpage name="siteB">
+        <link name="siteA"/>
+        <link name="siteC"/>
+        <link name="siteD"/>
+        <rank value="0.819"/>
+        <content value="Well well well not this ever again"/>
+    </webpage>
+    <webpage name="siteC">
+        <link name="siteA"/>
+        <rank value="1.274"/>
+        <content value="Ever been stuck in the ice cream shop"/>
+    </webpage>
+    <webpage name="siteD">
+        <link name="siteC"/>
+        <rank value="0.636"/>
+        <content value="Yes sir never ever have i"/>
+    </webpage>
+</test>

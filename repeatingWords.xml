@@ -1,0 +1,9 @@
+<test>
+    <webpage name="siteA">
+        <link name="siteB"/>
+        <content value="hey HEY hey"/>
+    </webpage>
+    <webpage name="siteB">
+        <content value="hey HeY"/>
+    </webpage>
+</test>
